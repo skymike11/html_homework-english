@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  height: 600px;
+  width: 100%;
+  background: url("road.jpeg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.header-nav {
+  height: 60px;
+  font-family: "Andale Mono";
+  display: flex;
+  color: white;
+  font-weight: bolder;
+}
+
+.nav-title-job, .nav-title {
+  margin: 20px;
+  padding-top: 15px;
+}
+
+.nav-title-job {
+  margin-right: 34%;
+  margin-left: 9%;
+  min-width: 50px;
+}
+
+.header-pic {
+  text-align: center;
+}
+
+.header-pic img {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+.header-job {
+  color: white;
+  font-family: Arial;
+}
+
+.header-btn {
+  width: 240px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 3px;
+  background: #1E90FF;
+  cursor: pointer;
+  outline: none;
+  font-family: Arial;
+  color: white;
+  font-size: 13px;
+}
+
+.share-btn-group {
+  display: inline-flex;
+  text-align: center;
+  align-content: center;
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.share-btn {
+  position: relative;
+  top: -40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 200px;
+  margin: 15px;
+  text-align: center;
+  left: 570px;
+}
+
+.share-btn img {
+  width: 40px;
+  height: 40px;
+  border-radius: 200px;
+}
+
+.info {
+  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 20px #888888;
+  height: 300px;
+  margin-bottom: 40px;
+  display: inline-flex;
+}
+
+.lt {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.lt p {
+  color: gray;
+  font-weight: lighter;
+}
+
+.rh {
+  width: 50%;
+  padding-left: 60px;
+}
+
+.rh div {
+  padding-top: 10px;
+
+}
